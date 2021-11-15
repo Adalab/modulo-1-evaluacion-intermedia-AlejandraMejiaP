@@ -1,0 +1,49 @@
+:root {
+  --menu-text: #4a4a4a;
+  --main-background-color: #3cdbc0;
+  --principal-text: #ffffff;
+  --header-background-color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+}
+/* header  */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+
+  background-color: var(--header-background-color);
+}
+.section:first-of-type {
+  display: flex;
+  justify-content: center;
+}
+.section-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 155px;
+}
+
+/* header menu */
+.header-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-option:first-of-type {
+  padding-right: 20px;
+}
+.menu-option {
+  font-size: 1.6rem;
+  color: var(--menu-text);
+}
+/* main */
+.main {
+  background-color: var(--main-background-color);
+  display: flex;
+}
+h1 {
+  height: 1000px;
+  color: var(--principal-text);
+  font-size: 3rem;
+}
