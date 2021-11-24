@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+
+  background-color: var(--header-background-color);
+}
+.section:first-of-type {
+  display: flex;
+  justify-content: center;
+}
+.section-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 155px;
+}
+
+/* header menu */
+.header-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-option:first-of-type {
+  padding-right: 20px;
+}
+.menu-option {
+  font-size: 1.6rem;
+  color: var(--menu-text);
+  text-transform: uppercase;
+}
