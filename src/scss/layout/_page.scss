@@ -1,7 +1,27 @@
-body {
-  padding: 2rem;
+.main {
+  background-color: $BKcolor;
+  display: flex;
   height: 100vh;
-  background-image: url('../images/bg-adalab.png');
-  background-color: $color-bg;
-  font-family: $font-main;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  word-spacing: 500px;
+  line-height: 40px;
+  &__h1 {
+    color: $principal-text;
+    font-size: 3rem;
+    text-transform: capitalize;
+  }
+}
+
+/* responsive */
+
+@media all and (min-width: 768px) {
+  .main {
+    word-spacing: 1500px;
+    line-height: 40px;
+    &__h1 {
+      font-size: 4rem;
+    }
+  }
 }
